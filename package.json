@@ -1,0 +1,19 @@
+{
+  "name": "classslidesgenerator",
+  "version": "1.0.0",
+  "description": "Use AI to generate slides from a given subject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marioyahuar/ClassSlidesGenerator.git"
+  },
+  "author": "Mario Yahuarcani Salinas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marioyahuar/ClassSlidesGenerator/issues"
+  },
+  "homepage": "https://github.com/Marioyahuar/ClassSlidesGenerator#readme"
+}
