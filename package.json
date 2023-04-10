@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Marioyahuar/ClassSlidesGenerator/issues"
   },
-  "homepage": "https://github.com/Marioyahuar/ClassSlidesGenerator#readme"
+  "homepage": "https://github.com/Marioyahuar/ClassSlidesGenerator#readme",
+  "dependencies": {
+    "openai": "^3.2.1"
+  }
 }
