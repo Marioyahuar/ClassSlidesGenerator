@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "BioRhyme-Bold"; /* Puedes asignarle cualquier nombre a la fuente */
+  src: url(".fonts/BioRhyme-Bold.ttf") format("truetype"); /* Especifica la ruta de la fuente TTF */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #0093fb;
+  padding: 20px;
+}
+
+header img {
+  max-width: 20vw;
+}
+
+h1 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+label,
+input,
+button {
+  margin: 10px 0;
+  font-family: "BioRhyme-Bold";
+}
+
+label,
+input {
+  font-size: large;
+}
+
+input,
+button {
+  padding: 10px;
+  border: 2px solid #0093fb;
+}
+
+button {
+  background-color: #0093fb;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+button:hover {
+  opacity: 75%;
+}
+
+#slide-container {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+  border: 1px solid #0093fb;
+  padding: 10px;
+}
+
+#slide-results {
+  margin-bottom: 10px;
+  font-family: "BioRhyme-Bold";
+  font-size: large;
+}
+
+#slide-results div {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  header img {
+    max-width: 40vw;
+  }
+}

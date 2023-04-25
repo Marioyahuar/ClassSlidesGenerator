@@ -1,6 +1,47 @@
 <html>
-  <head> </head>
+  <head>
+    <script src="/main.js"></script>
+    <meta charset="UTF-8" />
+    <title>Slide Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
   <body>
-    Hello World
+    <header>
+      <img
+        src="./images/png/logo-no-background.png"
+        alt="Logo de Slide Generator"
+      />
+    </header>
+    <main>
+      <div id="input-container">
+        <label for="input-topic">Tema:</label>
+        <input
+          type="text"
+          id="input-topic"
+          placeholder="Ingrese el tema del slide"
+        />
+        <label for="input-quantity">Cantidad de Slides:</label>
+        <input
+          type="number"
+          id="input-quantity"
+          placeholder="Ingrese la cantidad de slides"
+        />
+        <label for="input-details">Detalles:</label>
+        <input
+          type="text"
+          id="input-details"
+          placeholder="Ingrese detalles importantes para su clase"
+        />
+        <button
+          id="generate-button"
+          onclick="generarSlides(document.getElementById('input-topic').value,document.getElementById('input-quantity').value,document.getElementById('input-details').value)"
+        >
+          Generar Contenido
+        </button>
+      </div>
+      <div id="slide-container">
+        <div id="slide-results"></div>
+      </div>
+    </main>
   </body>
 </html>
